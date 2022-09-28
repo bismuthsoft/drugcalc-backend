@@ -16,7 +16,6 @@ public class RecipeContainer {
     @GeneratedValue
     private long id;
 
-    private String unit;
     private long quantity;
 
     private long containerId;
