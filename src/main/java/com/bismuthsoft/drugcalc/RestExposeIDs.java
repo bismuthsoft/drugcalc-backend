@@ -11,6 +11,7 @@ public class RestExposeIDs implements RepositoryRestConfigurer {
     RepositoryRestConfigurer repositoryRestConfigurer() {
         return RepositoryRestConfigurer.withConfig(config -> {
             config.exposeIdsFor(Ingredient.class);
+            config.exposeIdsFor(Container.class);
         });
     }
 

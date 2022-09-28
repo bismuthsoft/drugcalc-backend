@@ -24,4 +24,6 @@ public class Recipe {
     @OneToMany(cascade = CascadeType.ALL)
     private List<RecipeIngredient> ingredients;
 
+    @OneToMany(cascade = CascadeType.ALL)
+    private List<RecipeContainer> containers;
 }
