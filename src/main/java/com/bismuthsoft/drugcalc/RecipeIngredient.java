@@ -16,9 +16,10 @@ public class RecipeIngredient {
     @GeneratedValue
     private long id;
 
-    private String name;
     private String unit;
     private long quantity;
+
+    private long ingredientId;
 
     @ManyToOne
     @JoinColumn(name="recipe_id")
