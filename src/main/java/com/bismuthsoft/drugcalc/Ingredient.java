@@ -9,7 +9,7 @@ import lombok.Data;
 
 @Entity
 @Data
-public class Container {
+public class Ingredient {
     
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -17,6 +17,6 @@ public class Container {
 
     private String name;
     private String unit;
-    private Double capacity;
+    private Double amount;
 
 }
