@@ -16,7 +16,6 @@ public class Ingredient {
     private long id;
 
     private String name;
-    private String unit;
-    private Double amount;
+    private Double density;
 
 }
